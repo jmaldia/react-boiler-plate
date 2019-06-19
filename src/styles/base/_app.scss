@@ -1,0 +1,13 @@
+.app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.app-section-wrapper {
+    width: 100%;
+    max-width: 90rem;
+    margin: $size-m auto 0 auto;
+    padding: $size-m;
+    border-radius: 4px;
+    background-color: $chorely-white;
+}

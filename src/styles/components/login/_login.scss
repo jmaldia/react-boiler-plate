@@ -1,0 +1,25 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.login-page__logo {
+    width: 23rem;
+}
+
+.login-page__button {
+    margin-top: 4rem;
+    width: 18rem;
+    cursor: pointer;
+
+    &:hover {
+        transform: translate(1px, 2px); 
+    }
+
+    &:active {
+        transform: translate(2px, 3px);
+    }
+}

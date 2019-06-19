@@ -1,0 +1,60 @@
+.dashboard-list-view__filter {
+    width: stretch;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard-list-view__filter__text {
+    width: 40%;
+    text-align: center;
+}
+
+.dashboard-list-view__header {
+    display: flex;
+    margin-top: $size-m;
+    border-radius: 4px;
+    background-color: $chorely-blue;
+    font-size: $size-m;
+    text-align: center;
+}
+
+.dashboard-list-view__header__description,
+.dashboard-list-view__points__point__description {
+    width: 60%;
+    padding: $size-s;
+}
+
+.dashboard-list-view__header__date,
+.dashboard-list-view__points__point__date {
+    width: 20%;
+    padding: $size-s;
+    text-align: center;
+}
+.dashboard-list-view__header__options,
+.dashboard-list-view__points__point__options {
+    width: 20%;
+    padding: $size-s;
+    text-align: center;
+}
+
+.dashboard-list-view__points__point {
+    display: flex;
+    justify-content: space-between;
+    font-size: $size-s;
+}
+
+// .dashboard-list-view__points__point__description {
+
+// }
+
+// .dashboard-list-view__points__point__date {
+    
+// }
+
+// .dashboard-list-view__points__point__options {
+    
+// }
+
+.dashboard-list-view__points__point__options span {
+    margin: 0 $size-s;
+}

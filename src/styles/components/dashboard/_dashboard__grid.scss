@@ -1,0 +1,47 @@
+.grid__row {
+    display: flex;
+    width: 100%;
+}
+
+.grid__row__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 4px;
+    background-color: $chorely-yellow;
+    // border: 1px solid $chorely-light-gray;
+    border-radius: 4px;
+    font-family: $font-family-script;
+    font-size: $size-l;
+}
+
+.grid__row__week {
+    display: flex;
+    width: 70%;
+}
+
+.grid__row__week__point {
+    width: 14.29%;
+    margin: 4px;
+    padding-top: 13.1%;
+    position: relative;
+    background-color: $chorely-light-gray;
+    // border: 1px solid $chorely-light-gray;
+    border-radius: 4px;
+}
+
+.grid__row__week__point .fa-check-circle {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    bottom: 20%;
+    right: 20%;
+    font-size: $size-xl;
+    color: $chorely-purple;
+}
+
+.grid__row__week__point .square {
+    font-size: $size-xl;
+    color: $chorely-black;
+}

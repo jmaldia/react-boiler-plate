@@ -1,0 +1,48 @@
+.dashboard__header {
+    display: flex;
+    width: 100%;
+}
+
+.dashboard__header__title {
+    padding-bottom: $size-m;
+    color: $chorely-purple;
+    font-size: $size-xl;
+    font-family: $font-family-script;
+    text-align: center;
+}
+
+.header__week-of {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 4px;
+    padding: $size-base;
+    border-radius: 4px;
+    // border: 1px solid #cecece;
+    background-color: $chorely-black;
+    color: $chorely-white;
+    font-size: $size-s;
+    font-weight: bolder;
+    overflow: scroll;
+}
+
+.header__week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.header__week__day {
+    width: 14.29%;
+    margin: 4px;
+    padding: $size-base;
+    // border: 1px solid #cecece;
+    border-radius: 4px;
+    background-color: $chorely-black;
+    color: $chorely-white;
+    font-size: $size-s;
+    font-weight: bolder;
+    overflow: scroll;
+}
