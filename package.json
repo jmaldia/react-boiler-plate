@@ -6,7 +6,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "airtable": "^0.5.9",
+    "airtable": "^0.7.2",
     "babel-cli": "^6.26.0",
     "date-and-time": "^0.6.3",
     "dotenv": "^8.0.0",
